@@ -28,10 +28,15 @@
     </style>
 </head>
 <body>
+    <h1>who is carviz</h1>
+    <img id="Image" src="https://media.discordapp.net/attachments/1037097534302208001/1057475567789805628/IMG_3685.jpg?ex=66ba131e&is=66b8c19e&hm=d28490d5ae0e4c93834b4eb5c4624a48a7e45b1474337bcf0a95ee1d67178939&=&format=webp" class="center" alt="Image">
 
-<h1>who is carviz</h1>
-
-<img src="https://media.discordapp.net/attachments/1037097534302208001/1057475567789805628/IMG_3685.jpg?ex=66ba131e&is=66b8c19e&hm=d28490d5ae0e4c93834b4eb5c4624a48a7e45b1474337bcf0a95ee1d67178939&=&format=webp" class="center" alt="Image">
-
+<script>
+    const images = [
+        "IMG_3685.webp",
+        "Screenshot_20231207_113609_Bloons_TD_6_NETFLIX.png",
+    ];
+    document.getElementById('Image').src = images[Math.floor(Math.random() * images.length);]
+</script>
 </body>
 </html>
